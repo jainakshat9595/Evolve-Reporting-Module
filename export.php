@@ -158,7 +158,11 @@ function exportMysqlToCsv()
                 $objPHPExcel->getActiveSheet()->setCellValue('E'.$index,$row['contact_person']);
                 $objPHPExcel->getActiveSheet()->setCellValue('F'.$index,$row['contact_number']);
                 $objPHPExcel->getActiveSheet()->setCellValue('G'.$index,$row['contact_email']);
-                $objPHPExcel->getActiveSheet()->setCellValue('J'.$index,$row['payment_mode']);
+                if($row['payment_mode'] == "" || $row['payment_mode'] == null) {
+                    $objPHPExcel->getActiveSheet()->setCellValue('J'.$index,"Online Payment");
+                } else {
+                    $objPHPExcel->getActiveSheet()->setCellValue('J'.$index,$row['payment_mode']);
+                }
                 $objPHPExcel->getActiveSheet()->setCellValue('K'.$index,$row['payment_total']);
                 $objPHPExcel->getActiveSheet()->setCellValue('L'.$index,"");
                 $objPHPExcel->getActiveSheet()->setCellValue('M'.$index,"");
