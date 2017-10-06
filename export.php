@@ -247,10 +247,15 @@ function exportMysqlToCsv()
 // db connection function
 function dbConnection() {
 
+    // $servername = "localhost";
+    // $username = "root";
+    // $password = "1234";
+    // $dbname = "evolve";
+
     $servername = "localhost";
-    $username = "root";
-    $password = "1234";
-    $dbname = "evolve";
+    $username = "evolvesn_user2";
+    $password = "J.or*aMLwoc@";
+    $dbname = "evolvesn_opencartDB";
     
     // Create connection
     $conn = null;
