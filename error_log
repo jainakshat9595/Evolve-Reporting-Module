@@ -1,0 +1,519 @@
+[04-Jul-2017 09:02:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_6b6e2063ebd097c680118400812499b6, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:02:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:02:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_6b6e2063ebd097c680118400812499b6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[04-Jul-2017 09:02:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[04-Jul-2017 09:02:24 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_6b6e2063ebd097c680118400812499b6, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:02:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:02:24 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_6b6e2063ebd097c680118400812499b6, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[04-Jul-2017 09:02:24 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_a4c745c80f4a9bd0dd999450bde06ee5, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[04-Jul-2017 09:56:46 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[05-Jul-2017 11:57:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_2c2f26a4d9432e54cd55bba39fd7752d, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 1
+[05-Jul-2017 11:57:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:1) in /home/reporting/public_html/index.php on line 1
+[05-Jul-2017 11:57:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_2c2f26a4d9432e54cd55bba39fd7752d, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[05-Jul-2017 11:57:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 00:56:27 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/reporting/public_html/logout.php on line 3
+[06-Jul-2017 00:56:27 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/logout.php:3) in /home/reporting/public_html/logout.php on line 4
+[06-Jul-2017 00:57:00 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/reporting/public_html/logout.php on line 3
+[06-Jul-2017 00:57:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/logout.php:3) in /home/reporting/public_html/logout.php on line 4
+[06-Jul-2017 01:04:14 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/reporting/public_html/logout.php on line 3
+[06-Jul-2017 01:04:14 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/logout.php:3) in /home/reporting/public_html/logout.php on line 4
+[06-Jul-2017 01:05:35 America/Chicago] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/reporting/public_html/logout.php on line 7
+[06-Jul-2017 01:05:35 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/logout.php:7) in /home/reporting/public_html/logout.php on line 9
+[06-Jul-2017 01:06:51 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:51 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:51 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:55 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:56 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:57 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:57 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:57 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:06:58 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:00 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:01 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:01 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:01 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:01 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:02 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:02 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:02 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:04 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:08 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:08 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:08 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:09 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:10 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:21 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:37 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_20790666f3fcaea1b0df2d13445ae1e1, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:07:39 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:25:09 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_82204e284a2d90450e42d3041ab46710, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:25:09 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:25:09 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_82204e284a2d90450e42d3041ab46710, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:25:09 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 01:26:43 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_82204e284a2d90450e42d3041ab46710, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:26:43 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 01:26:43 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_82204e284a2d90450e42d3041ab46710, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 01:26:43 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 07:23:02 America/Chicago] PHP Parse error:  syntax error, unexpected '12' (T_LNUMBER), expecting ',' or ';' in /home/reporting/public_html/export.php on line 55
+[06-Jul-2017 07:27:08 America/Chicago] PHP Fatal error:  Call to a member function getTimestamp() on boolean in /home/reporting/public_html/export.php on line 56
+[06-Jul-2017 07:51:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/export.php:15) in /home/reporting/public_html/export.php on line 191
+[06-Jul-2017 07:51:44 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/export.php:15) in /home/reporting/public_html/export.php on line 192
+[06-Jul-2017 22:41:17 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_761e3f455d753af826f34ebf74b95545, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 22:41:17 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[06-Jul-2017 22:41:17 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_761e3f455d753af826f34ebf74b95545, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 22:41:17 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[06-Jul-2017 22:41:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_761e3f455d753af826f34ebf74b95545, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[06-Jul-2017 22:41:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[06-Jul-2017 22:41:30 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[06-Jul-2017 22:41:30 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_761e3f455d753af826f34ebf74b95545, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[06-Jul-2017 22:41:30 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[07-Jul-2017 02:27:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/export.php:15) in /home/reporting/public_html/export.php on line 191
+[07-Jul-2017 02:27:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/export.php:15) in /home/reporting/public_html/export.php on line 192
+[10-Jul-2017 02:12:08 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:08 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:08 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:08 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:20 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:21 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 02:12:21 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:21 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:12:51 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 02:12:51 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 02:12:51 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[10-Jul-2017 02:12:51 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:12:51 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 02:13:00 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 02:13:00 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 02:13:00 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[10-Jul-2017 02:13:00 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_e9683e329c91bad638f62f705c6eb727, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 02:13:00 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 03:41:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_8d81111d3417b169d2b4027b61b6f35f, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 03:41:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 03:41:46 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_8d81111d3417b169d2b4027b61b6f35f, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 03:41:46 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 05:56:09 America/Chicago] PHP Fatal error:  Uncaught exception 'PHPExcel_Exception' with message 'You tried to set a sheet active by the out of bounds index: 1. The actual number of sheets is 1.' in /home/reporting/public_html/Classes/PHPExcel.php:695
+Stack trace:
+#0 /home/reporting/public_html/export.php(238): PHPExcel->setActiveSheetIndex(1)
+#1 /home/reporting/public_html/export.php(6): exportMysqlToCsv()
+#2 {main}
+  thrown in /home/reporting/public_html/Classes/PHPExcel.php on line 695
+[10-Jul-2017 05:58:34 America/Chicago] PHP Parse error:  syntax error, unexpected '$q_vals' (T_VARIABLE) in /home/reporting/public_html/export.php on line 260
+[10-Jul-2017 05:59:28 America/Chicago] PHP Parse error:  syntax error, unexpected '$row' (T_VARIABLE) in /home/reporting/public_html/export.php on line 260
+[10-Jul-2017 06:28:46 America/Chicago] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1' in /home/reporting/public_html/export.php:374
+Stack trace:
+#0 /home/reporting/public_html/export.php(374): PDO->query('SELECT sales_or...')
+#1 /home/reporting/public_html/export.php(6): exportMysqlToCsv()
+#2 {main}
+  thrown in /home/reporting/public_html/export.php on line 374
+[10-Jul-2017 08:23:21 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 08:23:21 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[10-Jul-2017 08:23:21 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:23:21 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 08:23:46 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:46 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[10-Jul-2017 08:23:46 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:23:46 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 08:23:52 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:52 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:23:52 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 08:23:55 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:23:55 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:23:55 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 08:24:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:24:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:24:03 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[10-Jul-2017 08:24:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:24:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[10-Jul-2017 08:24:55 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:24:55 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 4
+[10-Jul-2017 08:24:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:4) in /home/reporting/public_html/auth.php on line 35
+[10-Jul-2017 08:24:55 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_c5b0f7841f14ac6d62914ef2f8af3173, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[10-Jul-2017 08:24:55 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:24 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:24 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:24 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:24 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:28 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:29 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:29 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:29 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:30 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:31 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:32 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:33 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:33 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:33 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:33 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:38 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:39 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:39 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:39 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:13:48 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:48 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:13:48 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:13:48 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:11 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:14:12 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:24:19 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:8) in /home/reporting/public_html/auth.php on line 23
+[12-Jul-2017 00:24:25 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:8) in /home/reporting/public_html/auth.php on line 23
+[12-Jul-2017 00:24:28 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/auth.php:8) in /home/reporting/public_html/auth.php on line 23
+[12-Jul-2017 00:27:39 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:27:39 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[12-Jul-2017 00:27:39 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_5c1c2699a8782bb7736f1476e56e1dbb, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[12-Jul-2017 00:27:39 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[12-Jul-2017 00:29:26 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/reporting/public_html/export-form.php on line 8
+[12-Jul-2017 00:54:35 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/reporting/public_html/export-form.php on line 9
+[12-Jul-2017 00:55:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/reporting/public_html/export-form.php:10) in /home/reporting/public_html/export-form.php on line 25
+[12-Jul-2017 00:56:24 America/Chicago] PHP Fatal error:  Call to undefined function session_close() in /home/reporting/public_html/logout.php on line 9
+[15-Jul-2017 07:57:13 America/Chicago] PHP Notice:  Undefined index: username in /home/reporting/public_html/auth.php on line 11
+[15-Jul-2017 07:57:13 America/Chicago] PHP Notice:  Undefined index: password in /home/reporting/public_html/auth.php on line 12
+[01-Aug-2017 00:06:26 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[01-Aug-2017 00:06:26 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[02-Aug-2017 08:32:03 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_53722e0622e32bd764d79044780fafec, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[02-Aug-2017 08:32:03 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[02-Aug-2017 08:32:03 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_53722e0622e32bd764d79044780fafec, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[02-Aug-2017 08:32:03 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[02-Aug-2017 08:32:29 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_53722e0622e32bd764d79044780fafec, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[02-Aug-2017 08:32:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[02-Aug-2017 08:32:29 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_53722e0622e32bd764d79044780fafec, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[02-Aug-2017 08:32:29 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[15-Aug-2017 04:56:34 America/Chicago] PHP Notice:  Undefined index: username in /home/reporting/public_html/auth.php on line 11
+[15-Aug-2017 04:56:34 America/Chicago] PHP Notice:  Undefined index: password in /home/reporting/public_html/auth.php on line 12
+[16-Aug-2017 09:16:16 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_7cbc427155433367362dabde1668beb4, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[16-Aug-2017 09:16:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[16-Aug-2017 09:16:16 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_7cbc427155433367362dabde1668beb4, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[16-Aug-2017 09:16:16 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[16-Aug-2017 09:16:27 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_7cbc427155433367362dabde1668beb4, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[16-Aug-2017 09:16:27 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[16-Aug-2017 09:16:27 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_7cbc427155433367362dabde1668beb4, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[16-Aug-2017 09:16:27 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[16-Aug-2017 09:36:35 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[16-Aug-2017 09:36:35 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[17-Aug-2017 01:00:57 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_0a7108e671c290ba5e54405cdc08f19e, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[17-Aug-2017 01:00:57 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[17-Aug-2017 01:00:57 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_0a7108e671c290ba5e54405cdc08f19e, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[17-Aug-2017 01:00:57 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[17-Aug-2017 01:01:20 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_0a7108e671c290ba5e54405cdc08f19e, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[17-Aug-2017 01:01:20 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[17-Aug-2017 01:01:20 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_0a7108e671c290ba5e54405cdc08f19e, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[17-Aug-2017 01:01:20 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[21-Aug-2017 02:12:47 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_f15f4120a2c02f695d3bc7af962439d9, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[21-Aug-2017 02:12:47 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[21-Aug-2017 02:12:47 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_f15f4120a2c02f695d3bc7af962439d9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[21-Aug-2017 02:12:47 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[21-Aug-2017 02:14:02 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_f15f4120a2c02f695d3bc7af962439d9, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[21-Aug-2017 02:14:02 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[21-Aug-2017 02:14:02 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_f15f4120a2c02f695d3bc7af962439d9, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[21-Aug-2017 02:14:02 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[28-Aug-2017 00:56:25 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_9504433ae5d22b2bd66c8fae699e387a, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[28-Aug-2017 00:56:25 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[28-Aug-2017 00:56:25 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_9504433ae5d22b2bd66c8fae699e387a, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[28-Aug-2017 00:56:25 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[28-Aug-2017 00:56:52 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_9504433ae5d22b2bd66c8fae699e387a, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[28-Aug-2017 00:56:52 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[28-Aug-2017 00:56:52 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_9504433ae5d22b2bd66c8fae699e387a, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[28-Aug-2017 00:56:52 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[30-Aug-2017 01:31:06 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[30-Aug-2017 01:31:06 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[30-Aug-2017 21:22:59 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[30-Aug-2017 21:22:59 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[31-Aug-2017 21:28:05 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[31-Aug-2017 21:28:05 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[01-Sep-2017 01:35:04 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_eefa06aaf0b3a04d51cec09e11ebe770, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/index.php on line 2
+[01-Sep-2017 01:35:04 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/index.php:2) in /home/reporting/public_html/index.php on line 2
+[01-Sep-2017 01:35:04 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_eefa06aaf0b3a04d51cec09e11ebe770, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[01-Sep-2017 01:35:04 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[01-Sep-2017 01:35:35 America/Chicago] PHP Warning:  session_start(): open(/tmp/sess_eefa06aaf0b3a04d51cec09e11ebe770, O_RDWR) failed: Permission denied (13) in /home/reporting/public_html/export-form.php on line 2
+[01-Sep-2017 01:35:35 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/reporting/public_html/export-form.php:2) in /home/reporting/public_html/export-form.php on line 2
+[01-Sep-2017 01:35:35 America/Chicago] PHP Warning:  Unknown: open(/tmp/sess_eefa06aaf0b3a04d51cec09e11ebe770, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[01-Sep-2017 01:35:35 America/Chicago] PHP Warning:  Unknown: Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[01-Sep-2017 12:30:17 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[01-Sep-2017 12:30:17 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:07:41 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:07:41 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:07:42 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:07:42 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:08:27 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[06-Sep-2017 21:08:27 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[16-Sep-2017 04:31:01 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[16-Sep-2017 04:31:01 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[29-Sep-2017 02:30:45 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
+[29-Sep-2017 02:30:45 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
