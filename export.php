@@ -37,7 +37,7 @@ function exportMysqlToCsv()
                     INNER JOIN oc_order_history 
                     ON oc_order_history.order_id = oc_order.order_id
 
-                    WHERE oc_order.date_added BETWEEN '".$_POST['start_date']."' AND '".$_POST['end_date']."'
+                    WHERE oc_order.date_added BETWEEN '".subtractTimeBuffer($_POST['start_date'])."' AND '".subtractTimeBuffer($_POST['end_date'])."'
                     
                     GROUP BY oc_order.order_id";
 
@@ -152,11 +152,43 @@ function exportMysqlToCsv()
                 }
                 
                 $objPHPExcel->getActiveSheet()->setCellValue('A'.$index,($index-1));
-                $objPHPExcel->getActiveSheet()->setCellValue('B'.$index,$row['order_date']);
+                $objPHPExcel->getActiveSheet()->setCellValue('B'.$index,addTimeBuffer($row['order_date']));
                 $objPHPExcel->getActiveSheet()->setCellValue('C'.$index,$row['order_id']);
                 $objPHPExcel->getActiveSheet()->setCellValue('D'.$index,$row['customer_id']);
                 $objPHPExcel->getActiveSheet()->setCellValue('E'.$index,$row['contact_person']);
-                $objPHPExcel->getActiveSheet()->setCellValue('F'.$index,$row['contact_number']);
+
+                if($row['contact_number'] == "" || $row['contact_number'] == null) {
+
+                    $sub_sql_query_4 = "SELECT
+                        oc_address.custom_field as 'custom_field'
+        
+                        FROM oc_address
+        
+                        WHERE oc_address.customer_id = ". $row['customer_id']; 
+
+                    $q_sub_4 = null;
+                    try {
+                        $q_sub_4 = $conn->query($sub_sql_query_4);
+                        $q_sub_4->setFetchMode(PDO::FETCH_ASSOC);
+                    } catch(PDOException $e) {
+                        echo "Error: " . $e->getMessage();
+                    }
+
+                    $q_vals_sub_4 = $q_sub_4->fetchAll();
+
+                    $updated_number = "";
+
+                    if(count($q_vals_sub_4) != 0) {
+                        foreach($q_vals_sub_4 as $sub_row_4) {
+                            $updated_number = json_decode($sub_row_4['custom_field'], true)['1'];
+                        }
+                    }
+                    $objPHPExcel->getActiveSheet()->setCellValue('F'.$index,$updated_number);
+                } else {
+                    $objPHPExcel->getActiveSheet()->setCellValue('F'.$index,$row['contact_number']);
+                }
+                
+                
                 $objPHPExcel->getActiveSheet()->setCellValue('G'.$index,$row['contact_email']);
                 if($row['payment_mode'] == "" || $row['payment_mode'] == null) {
                     $objPHPExcel->getActiveSheet()->setCellValue('J'.$index,"Online Payment");
@@ -244,18 +276,32 @@ function exportMysqlToCsv()
     die();
 }
 
+function subtractTimeBuffer($date) {
+    $timestamp = strtotime($date);
+    $timestamp_buff = (12*60*60) + 1800;
+    $date_new = date("Y-m-d H:i",($timestamp-$timestamp_buff));
+    return $date_new;
+}
+
+function addTimeBuffer($date) {
+    $timestamp = strtotime($date);
+    $timestamp_buff = (12*60*60) + 1800;
+    $date_new = date("Y-m-d H:i",($timestamp+$timestamp_buff));
+    return $date_new;
+}
+
 // db connection function
 function dbConnection() {
 
-    // $servername = "localhost";
-    // $username = "root";
-    // $password = "1234";
-    // $dbname = "evolve";
-
     $servername = "localhost";
-    $username = "evolvesn_user2";
-    $password = "J.or*aMLwoc@";
-    $dbname = "evolvesn_opencartDB";
+    $username = "root";
+    $password = "1234";
+    $dbname = "evolve";
+
+    // $servername = "localhost";
+    // $username = "evolvesn_user2";
+    // $password = "J.or*aMLwoc@";
+    // $dbname = "evolvesn_opencartDB";
     
     // Create connection
     $conn = null;
@@ -271,3 +317,5 @@ function dbConnection() {
 }
 
 ?>
+
+12*60*60 + 1800 
