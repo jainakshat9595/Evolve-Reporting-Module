@@ -517,3 +517,8 @@ Stack trace:
 [16-Sep-2017 04:31:01 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
 [29-Sep-2017 02:30:45 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 56
 [29-Sep-2017 02:30:45 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 56
+[06-Oct-2017 04:15:56 America/Chicago] PHP Fatal error:  Call to a member function beginTransaction() on null in /home/reporting/public_html/export.php on line 264
+[09-Oct-2017 20:38:52 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 40
+[09-Oct-2017 20:38:52 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 40
+[09-Oct-2017 20:41:42 America/Chicago] PHP Notice:  Undefined index: start_date in /home/reporting/public_html/export.php on line 40
+[09-Oct-2017 20:41:42 America/Chicago] PHP Notice:  Undefined index: end_date in /home/reporting/public_html/export.php on line 40

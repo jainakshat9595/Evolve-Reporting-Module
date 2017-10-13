@@ -16,7 +16,7 @@ if($username == "" || $password == "") {
     die();
 }
 
-if($username == "admin" && $password == "Evolve@123#") {
+if($username == "admin" && $password == "q") {
 
     $_SESSION["username"] = $username;
     $_SESSION["password"] = $password;
