@@ -27,6 +27,10 @@ function exportMysqlToCsv()
                     oc_order.payment_zone_id as 'payment_zone_id',
                     CONCAT(oc_order.payment_address_1,' ',oc_order.payment_address_2) as 'payment_address',
                     oc_order.payment_postcode as 'payment_postcode',
+                    oc_order.shipping_city as 'shipping_city',
+                    oc_order.shipping_zone_id as 'shipping_zone_id',
+                    CONCAT(oc_order.shipping_address_1,' ',oc_order.shipping_address_2) as 'shipping_address',
+                    oc_order.shipping_postcode as 'shipping_postcode',
                     max(oc_order_history.order_status_id) as 'order_status_id'
 
                     FROM oc_order
@@ -80,7 +84,7 @@ function exportMysqlToCsv()
 
     $objPHPExcel->setActiveSheetIndex(0);
 
-    for($ind = 'A'; $ind<='R'; $ind++) {
+    for($ind = 'A'; $ind<='V'; $ind++) {
         $objPHPExcel->getActiveSheet()->getStyle($ind.'1')->applyFromArray($cell_header_style);
     }
     
@@ -97,11 +101,15 @@ function exportMysqlToCsv()
     $objPHPExcel->getActiveSheet()->setCellValue('K1',"Amount(Rs)"); 
     $objPHPExcel->getActiveSheet()->setCellValue('L1',"Courier"); 
     $objPHPExcel->getActiveSheet()->setCellValue('M1',"AWB Number");
-    $objPHPExcel->getActiveSheet()->setCellValue('N1',"City"); 
-    $objPHPExcel->getActiveSheet()->setCellValue('O1',"State");  
-    $objPHPExcel->getActiveSheet()->setCellValue('P1',"Address"); 
-    $objPHPExcel->getActiveSheet()->setCellValue('Q1',"Pin Code"); 
-    $objPHPExcel->getActiveSheet()->setCellValue('R1',"Product Selection");
+    $objPHPExcel->getActiveSheet()->setCellValue('N1',"Billing City"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('O1',"Billing State");  
+    $objPHPExcel->getActiveSheet()->setCellValue('P1',"Billing Address"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('Q1',"Billing Pin Code"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('R1',"Shipping City"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('S1',"Shipping State");  
+    $objPHPExcel->getActiveSheet()->setCellValue('T1',"Shipping Address"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('U1',"Shipping Pin Code"); 
+    $objPHPExcel->getActiveSheet()->setCellValue('V1',"Product Selection");
 
     $index = 2;
     
@@ -124,30 +132,48 @@ function exportMysqlToCsv()
                     WHERE oc_order_product.order_id = ". $row['order_id'];
 
                 $sub_sql_query_2 = "SELECT
-                    oc_zone.name as 'state_name'
+                    oc_zone.name as 'payment_state_name'
                     
                     FROM oc_zone
 
                     WHERE oc_zone.zone_id = ". $row['payment_zone_id'];
 
+                $sub_sql_query_5 = "SELECT
+                    oc_zone.name as 'shipping_state_name'
+
+                    FROM oc_zone
+
+                    WHERE oc_zone.zone_id = ". $row['shipping_zone_id'];
+
                 $q_sub_1 = null;
                 $q_sub_2 = null;
+                $q_sub_5 = null;
                 try {
                     $q_sub_1 = $conn->query($sub_sql_query_1);
                     $q_sub_1->setFetchMode(PDO::FETCH_ASSOC);
                     $q_sub_2 = $conn->query($sub_sql_query_2);
                     $q_sub_2->setFetchMode(PDO::FETCH_ASSOC);
+                    $q_sub_5 = $conn->query($sub_sql_query_5);
+                    $q_sub_5->setFetchMode(PDO::FETCH_ASSOC);
                 } catch(PDOException $e) {
                     echo "Error: " . $e->getMessage();
                 }
 
                 $q_vals_sub_1 = $q_sub_1->fetchAll();
                 $q_vals_sub_2 = $q_sub_2->fetchAll();
+                $q_vals_sub_5 = $q_sub_2->fetchAll();
                 
-                $state_name = "";
+                $payment_state_name = "";
                 if(count($q_vals_sub_2) != 0) {
                     foreach($q_vals_sub_2 as $sub_row_2) {
-                        $state_name = $sub_row_2['state_name'];
+                        $payment_state_name = $sub_row_2['payment_state_name'];
+                    }
+                }
+
+                $shipping_state_name = "";
+                if(count($q_vals_sub_5) != 0) {
+                    foreach($q_vals_sub_5 as $sub_row_5) {
+                        $shipping_state_name = $sub_row_5['shipping_state_name'];
                     }
                 }
                 
@@ -199,15 +225,24 @@ function exportMysqlToCsv()
                 $objPHPExcel->getActiveSheet()->setCellValue('L'.$index,"");
                 $objPHPExcel->getActiveSheet()->setCellValue('M'.$index,"");
                 $objPHPExcel->getActiveSheet()->setCellValue('N'.$index,$row['payment_city']);
-                if($state_name == "" || $state_name == null) {
+                if($payment_state_name == "" || $payment_state_name == null) {
                     $objPHPExcel->getActiveSheet()->setCellValue('O'.$index,$row['payment_city']);
                 } else {
-                    $objPHPExcel->getActiveSheet()->setCellValue('O'.$index,$state_name);
+                    $objPHPExcel->getActiveSheet()->setCellValue('O'.$index,$payment_state_name);
                 }
                 $objPHPExcel->getActiveSheet()->setCellValue('P'.$index,$row['payment_address']);
                 $objPHPExcel->getActiveSheet()->setCellValue('Q'.$index,$row['payment_postcode']);
+
+                $objPHPExcel->getActiveSheet()->setCellValue('R'.$index,$row['shipping_city']);
+                if($shipping_state_name == "" || $shipping_state_name == null) {
+                    $objPHPExcel->getActiveSheet()->setCellValue('S'.$index,$row['shipping_city']);
+                } else {
+                    $objPHPExcel->getActiveSheet()->setCellValue('S'.$index,$shipping_state_name);
+                }
+                $objPHPExcel->getActiveSheet()->setCellValue('T'.$index,$row['shipping_address']);
+                $objPHPExcel->getActiveSheet()->setCellValue('U'.$index,$row['shipping_postcode']);
                 
-                $col_index = 'R';
+                $col_index = 'V';
                 $no_packets = 0;
                 $grand_total_weight = 0;
                 
@@ -317,5 +352,3 @@ function dbConnection() {
 }
 
 ?>
-
-12*60*60 + 1800 
