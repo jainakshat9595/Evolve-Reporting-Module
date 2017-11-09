@@ -80,7 +80,7 @@ function dbConnection() {
     $servername = "localhost";
     $username = "evolvesn_user2";
     $password = "J.or*aMLwoc@";
-    $dbname = "evolvesn_opencartDB";
+    $dbname = "evolvesn_opencart";
     
     // Create connection
     $conn = null;
