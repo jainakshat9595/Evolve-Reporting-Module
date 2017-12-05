@@ -72,15 +72,15 @@ function addTimeBuffer($date) {
 // db connection function
 function dbConnection() {
 
-    // $servername = "localhost";
-    // $username = "root";
-    // $password = "";
-    // $dbname = "evolve";
-
     $servername = "localhost";
-    $username = "evolvesn_user2";
-    $password = "J.or*aMLwoc@";
-    $dbname = "evolvesn_opencartDB";
+    $username = "root";
+    $password = "";
+    $dbname = "evolve";
+
+    // $servername = "localhost";
+    // $username = "evolvesn_user2";
+    // $password = "J.or*aMLwoc@";
+    // $dbname = "evolvesn_opencartDB";
     
     // Create connection
     $conn = null;

@@ -72,15 +72,15 @@ function addTimeBuffer($date) {
 // db connection function
 function dbConnection() {
 
-    // $servername = "localhost";
-    // $username = "root";
-    // $password = "1234";
-    // $dbname = "evolve";
-
     $servername = "localhost";
-    $username = "evolvesn_user2";
-    $password = "J.or*aMLwoc@";
-    $dbname = "evolvesn_opencart";
+    $username = "root";
+    $password = "";
+    $dbname = "evolve";
+
+    // $servername = "localhost";
+    // $username = "evolvesn_user2";
+    // $password = "J.or*aMLwoc@";
+    // $dbname = "evolvesn_opencartDB";
     
     // Create connection
     $conn = null;
@@ -122,7 +122,7 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         CONCAT(oc_order.shipping_address_1,' ',oc_order.shipping_address_2) as 'shipping_address',
         oc_order.shipping_postcode as 'shipping_postcode',
         max(oc_order_history.order_status_id) as 'order_status_id'
-
+        
         FROM oc_order
 
         INNER JOIN oc_order_product 
@@ -150,9 +150,11 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->setActiveSheetIndex(0);
         $objPHPExcel->getActiveSheet()->setTitle("Actual Orders");
 
-        for($ind = 'A'; $ind<='W'; $ind++) {
+        for($ind = 'A'; $ind<='Z'; $ind++) {
             $objPHPExcel->getActiveSheet()->getStyle($ind.'1')->applyFromArray($cell_header_style);
         }
+
+        $objPHPExcel->getActiveSheet()->getStyle('AA1')->applyFromArray($cell_header_style);
 
         $objPHPExcel->getActiveSheet()->setCellValue('A1',"S. No.");
         $objPHPExcel->getActiveSheet()->setCellValue('B1',"Order Date"); 
@@ -176,7 +178,11 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->getActiveSheet()->setCellValue('T1',"Shipping Address"); 
         $objPHPExcel->getActiveSheet()->setCellValue('U1',"Shipping Pin Code"); 
         $objPHPExcel->getActiveSheet()->setCellValue('V1',"Coupon Code");
-        $objPHPExcel->getActiveSheet()->setCellValue('W1',"Product Selection");
+        $objPHPExcel->getActiveSheet()->setCellValue('W1',"Discount Value");                
+        $objPHPExcel->getActiveSheet()->setCellValue('X1',"Evolve Money Used");                
+        $objPHPExcel->getActiveSheet()->setCellValue('Y1',"Total Amount Paid");                
+        $objPHPExcel->getActiveSheet()->setCellValue('Z1',"Total Orders");                
+        $objPHPExcel->getActiveSheet()->setCellValue('AA1',"Product Selection");
 
         $index = 2;
 
@@ -212,11 +218,24 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                     oc_order_total.title as 'coupon_applied'
                     FROM oc_order_total
                     WHERE oc_order_total.order_id = ". $row['order_id'] . " AND oc_order_total.code = 'coupon';";
+                
+                $sub_sql_query_7 = "SELECT 
+                    *
+                    FROM oc_order_total
+                    WHERE oc_order_total.order_id = ". $row['order_id'] . ";";
 
+                $sub_sql_query_8 = "SELECT 
+                    count(*) as 'total_orders'
+                    FROM oc_order
+                    WHERE oc_order.customer_id = ". $row['customer_id'] . ";";
+
+            
                 $q_sub_1 = null;
                 $q_sub_2 = null;
                 $q_sub_5 = null;
                 $q_sub_6 = null;
+                $q_sub_7 = null;
+                $q_sub_8 = null;
                 try {
                     $q_sub_1 = $conn->query($sub_sql_query_1);
                     $q_sub_1->setFetchMode(PDO::FETCH_ASSOC);
@@ -226,6 +245,10 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                     $q_sub_5->setFetchMode(PDO::FETCH_ASSOC);
                     $q_sub_6 = $conn->query($sub_sql_query_6);
                     $q_sub_6->setFetchMode(PDO::FETCH_ASSOC);
+                    $q_sub_7 = $conn->query($sub_sql_query_7);
+                    $q_sub_7->setFetchMode(PDO::FETCH_ASSOC);
+                    $q_sub_8 = $conn->query($sub_sql_query_8);
+                    $q_sub_8->setFetchMode(PDO::FETCH_ASSOC);
                 } catch(PDOException $e) {
                     echo "Error: " . $e->getMessage();
                 }
@@ -234,6 +257,8 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                 $q_vals_sub_2 = $q_sub_2->fetchAll();
                 $q_vals_sub_5 = $q_sub_2->fetchAll();
                 $q_vals_sub_6 = $q_sub_6->fetchAll();
+                $q_vals_sub_7 = $q_sub_7->fetchAll();
+                $q_vals_sub_8 = $q_sub_8->fetchAll();
 
                 $payment_state_name = "";
                 if(count($q_vals_sub_2) != 0) {
@@ -253,6 +278,33 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                 if(count($q_vals_sub_6) != 0) {
                     foreach($q_vals_sub_6 as $sub_row_6) {
                         $coupon_applied = $sub_row_6['coupon_applied'];
+                    }
+                }
+
+                $discount_value = "";
+                $evolve_money = "";
+                $amount_paid = "";
+                if(count($q_vals_sub_7) != 0) {
+                    foreach($q_vals_sub_7 as $sub_row_7) {
+                        switch($sub_row_7['code']) {
+                            case "coupon":
+                                $discount_value = -1*$sub_row_7['value'];
+                                break;
+                            case "reward":
+                                $evolve_money = -1*$sub_row_7['value'];
+                                break;
+                            case "total":
+                                $amount_paid = $sub_row_7['value'];
+                                break;
+
+                        }
+                    }
+                }
+
+                $total_orders = "";
+                if(count($q_vals_sub_8) != 0) {
+                    foreach($q_vals_sub_8 as $sub_row_8) {
+                        $total_orders = $sub_row_8['total_orders'];
                     }
                 }
 
@@ -323,7 +375,13 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
 
                 $objPHPExcel->getActiveSheet()->setCellValue('V'.$index,$coupon_applied);
 
-                $col_index = 'X';
+                $objPHPExcel->getActiveSheet()->setCellValue('W'.$index,$discount_value);
+                $objPHPExcel->getActiveSheet()->setCellValue('X'.$index,$evolve_money);
+                $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,$amount_paid);
+                $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,$total_orders);
+
+                $col_index = 'Z';
+                $col_index++;
                 $no_packets = 0;
                 $grand_total_weight = 0;
 
