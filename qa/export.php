@@ -75,7 +75,7 @@ function dbConnection() {
     // $servername = "localhost";
     // $username = "root";
     // $password = "";
-    // $dbname = "evolve_n";
+    // $dbname = "evolve";
 
     // $servername = "localhost";
     // $username = "evolvesn_user2";
@@ -161,6 +161,7 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         }
 
         $objPHPExcel->getActiveSheet()->getStyle('AA1')->applyFromArray($cell_header_style);
+        $objPHPExcel->getActiveSheet()->getStyle('AB1')->applyFromArray($cell_header_style);
 
         $objPHPExcel->getActiveSheet()->setCellValue('A1',"S. No.");
         $objPHPExcel->getActiveSheet()->setCellValue('B1',"Order Date"); 
@@ -187,9 +188,10 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->getActiveSheet()->setCellValue('V1',"Discount Value");                
         $objPHPExcel->getActiveSheet()->setCellValue('W1',"Evolve Money Used");                
         $objPHPExcel->getActiveSheet()->setCellValue('X1',"Amount(Rs)");                
-        $objPHPExcel->getActiveSheet()->setCellValue('Y1',"Gift Message");                
-        $objPHPExcel->getActiveSheet()->setCellValue('Z1',"Total Orders");                
-        $objPHPExcel->getActiveSheet()->setCellValue('AA1',"Product Selection");
+        $objPHPExcel->getActiveSheet()->setCellValue('Y1',"Gift Message To");                
+        $objPHPExcel->getActiveSheet()->setCellValue('Z1',"Gift Message");                
+        $objPHPExcel->getActiveSheet()->setCellValue('AA1',"Total Orders");                
+        $objPHPExcel->getActiveSheet()->setCellValue('AB1',"Product Selection");
 
         $index = 2;
 
@@ -385,10 +387,23 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                 $objPHPExcel->getActiveSheet()->setCellValue('V'.$index,$discount_value);
                 $objPHPExcel->getActiveSheet()->setCellValue('W'.$index,$evolve_money);
                 $objPHPExcel->getActiveSheet()->setCellValue('X'.$index,$row['payment_total']);
-                $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,$row['order_comment']);
-                $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,$total_orders);
+                if($row['order_comment'] != "" && $row['order_comment'] != null) {
+                    if(strpos($row['order_comment'], '1evtag1') !== false) {
+                        $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,explode("1evtag1",$row['order_comment'])[1]);
+                        $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,explode("1evtag1",$row['order_comment'])[2]);
+                    } else {
+                        $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,"");
+                        $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,$row['order_comment']);
+                    }
+                } else {
+                    $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,"");
+                    $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,"");
+                }
+                
+                $objPHPExcel->getActiveSheet()->setCellValue('AA'.$index,$total_orders);
 
                 $col_index = 'Z';
+                $col_index++;
                 $col_index++;
                 $no_packets = 0;
                 $grand_total_weight = 0;
