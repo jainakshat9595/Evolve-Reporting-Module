@@ -128,14 +128,15 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         oc_order.shipping_postcode as 'shipping_postcode',
         max(oc_order_history.order_status_id) as 'order_status_id',
         oc_order.comment as 'order_comment'
+
         
         FROM oc_order
 
-        INNER JOIN oc_order_product 
-        ON oc_order_product.order_id = oc_order.order_id
+        LEFT JOIN oc_order_product 
+        ON oc_order.order_id = oc_order_product.order_id
 
-        INNER JOIN oc_order_history 
-        ON oc_order_history.order_id = oc_order.order_id
+        LEFT JOIN oc_order_history 
+        ON oc_order.order_id = oc_order_history.order_id
 
         WHERE 
         oc_order.date_added BETWEEN '".subtractTimeBuffer($_POST['start_date'])."' AND '".subtractTimeBuffer($_POST['end_date'])."'
@@ -161,6 +162,7 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         }
 
         $objPHPExcel->getActiveSheet()->getStyle('AA1')->applyFromArray($cell_header_style);
+        $objPHPExcel->getActiveSheet()->getStyle('AB1')->applyFromArray($cell_header_style);
 
         $objPHPExcel->getActiveSheet()->setCellValue('A1',"S. No.");
         $objPHPExcel->getActiveSheet()->setCellValue('B1',"Order Date"); 
@@ -187,17 +189,17 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->getActiveSheet()->setCellValue('V1',"Discount Value");                
         $objPHPExcel->getActiveSheet()->setCellValue('W1',"Evolve Money Used");                
         $objPHPExcel->getActiveSheet()->setCellValue('X1',"Amount(Rs)");                
-        $objPHPExcel->getActiveSheet()->setCellValue('Y1',"Gift Message");                
-        $objPHPExcel->getActiveSheet()->setCellValue('Z1',"Total Orders");                
-        $objPHPExcel->getActiveSheet()->setCellValue('AA1',"Product Selection");
+        $objPHPExcel->getActiveSheet()->setCellValue('Y1',"Gift Message To");                
+        $objPHPExcel->getActiveSheet()->setCellValue('Z1',"Gift Message");                
+        $objPHPExcel->getActiveSheet()->setCellValue('AA1',"Total Orders");                
+        $objPHPExcel->getActiveSheet()->setCellValue('AB1',"Vouchers");
 
         $index = 2;
 
-        if(count($q_vals) == 0) {
+        if(count($q_vals) <= 0) {
             echo "No Records Found";
             die();
         } else {
-
         foreach($q_vals as $row) {
 
             if($row['order_status_id'] == 1 || $row['order_status_id'] == 2) {
@@ -236,13 +238,19 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                     FROM oc_order
                     WHERE oc_order.customer_id = ". $row['customer_id'] . " AND order_status_id IN (5);";
 
-            
+                $sub_sql_query_9 = "SELECT
+                    oc_order_voucher.code as 'voucher_code',
+                    oc_order_voucher.amount as 'voucher_amount'
+                    FROM oc_order_voucher
+                    WHERE oc_order_voucher.order_id = ". $row['order_id'].";";
+
                 $q_sub_1 = null;
                 $q_sub_2 = null;
                 $q_sub_5 = null;
                 $q_sub_6 = null;
                 $q_sub_7 = null;
                 $q_sub_8 = null;
+                $q_sub_9 = null;
                 try {
                     $q_sub_1 = $conn->query($sub_sql_query_1);
                     $q_sub_1->setFetchMode(PDO::FETCH_ASSOC);
@@ -256,6 +264,8 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                     $q_sub_7->setFetchMode(PDO::FETCH_ASSOC);
                     $q_sub_8 = $conn->query($sub_sql_query_8);
                     $q_sub_8->setFetchMode(PDO::FETCH_ASSOC);
+                    $q_sub_9 = $conn->query($sub_sql_query_9);
+                    $q_sub_9->setFetchMode(PDO::FETCH_ASSOC);
                 } catch(PDOException $e) {
                     echo "Error: " . $e->getMessage();
                 }
@@ -266,6 +276,7 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                 $q_vals_sub_6 = $q_sub_6->fetchAll();
                 $q_vals_sub_7 = $q_sub_7->fetchAll();
                 $q_vals_sub_8 = $q_sub_8->fetchAll();
+                $q_vals_sub_9 = $q_sub_9->fetchAll();
 
                 $payment_state_name = "";
                 if(count($q_vals_sub_2) != 0) {
@@ -385,13 +396,43 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                 $objPHPExcel->getActiveSheet()->setCellValue('V'.$index,$discount_value);
                 $objPHPExcel->getActiveSheet()->setCellValue('W'.$index,$evolve_money);
                 $objPHPExcel->getActiveSheet()->setCellValue('X'.$index,$row['payment_total']);
-                $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,$row['order_comment']);
-                $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,$total_orders);
+                if($row['order_comment'] != "" && $row['order_comment'] != null) {
+                    if(strpos($row['order_comment'], '1evtag1') !== false) {
+                        $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,explode("1evtag1",$row['order_comment'])[1]);
+                        $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,explode("1evtag1",$row['order_comment'])[2]);
+                    } else {
+                        $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,"");
+                        $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,$row['order_comment']);
+                    }
+                } else {
+                    $objPHPExcel->getActiveSheet()->setCellValue('Y'.$index,"");
+                    $objPHPExcel->getActiveSheet()->setCellValue('Z'.$index,"");
+                }
+                
+                $objPHPExcel->getActiveSheet()->setCellValue('AA'.$index,$total_orders);
 
                 $col_index = 'Z';
                 $col_index++;
+                $col_index++;
                 $no_packets = 0;
                 $grand_total_weight = 0;
+
+                if(count($q_vals_sub_9) != 0) {
+                    foreach($q_vals_sub_9 as $sub_row_9) {
+                        $objPHPExcel->getActiveSheet()->getStyle($col_index.$index)->applyFromArray(
+                            array(
+                                'fill' => array(
+                                    'type' => PHPExcel_Style_Fill::FILL_SOLID,
+                                    'color' => array('rgb' => 'ecd94c')
+                                )
+                            )
+                        );
+                        $objPHPExcel->getActiveSheet()->setCellValue($col_index.$index,$sub_row_9['voucher_code']." - ".$sub_row_9['voucher_amount']);
+                        $col_index++;
+                    }
+                } else {
+                    $col_index++;
+                }
 
                 if(count($q_vals_sub_1) != 0) {
                     foreach($q_vals_sub_1 as $sub_row_1) {
@@ -428,6 +469,14 @@ function getActualOrders($conn, $objPHPExcel, $cell_header_style) {
                         $grand_total_weight += $total_item_weight;
 
                         while($sub_row_1['product_quantity']>=1) {
+                            $objPHPExcel->getActiveSheet()->getStyle($col_index.$index)->applyFromArray(
+                                array(
+                                    'fill' => array(
+                                        'type' => PHPExcel_Style_Fill::FILL_SOLID,
+                                        'color' => array('rgb' => 'c5de87')
+                                    )
+                                )
+                            );
                             $objPHPExcel->getActiveSheet()->setCellValue($col_index.$index,$sub_row_1['product_name']);
                             $col_index++;
                             $sub_row_1['product_quantity']--;
@@ -535,8 +584,6 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
         $index = 2;
 
         if(count($q_vals) == 0) {
-            echo "No Records Found";
-            die();
         } else {
 
         foreach($q_vals as $row) {
