@@ -554,7 +554,7 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->setActiveSheetIndex(1);
         $objPHPExcel->getActiveSheet()->setTitle("Missing Orders");
 
-        for($ind = 'A'; $ind<='X'; $ind++) {
+        for($ind = 'A'; $ind<='V'; $ind++) {
             $objPHPExcel->getActiveSheet()->getStyle($ind.'1')->applyFromArray($cell_header_style);
         }
 
@@ -580,7 +580,6 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
         $objPHPExcel->getActiveSheet()->setCellValue('T1',"Shipping Address"); 
         $objPHPExcel->getActiveSheet()->setCellValue('U1',"Shipping Pin Code"); 
         $objPHPExcel->getActiveSheet()->setCellValue('V1',"Product Selection");
-        $objPHPExcel->getActiveSheet()->setCellValue('X1',"Total Orders");
 
         $index = 2;
 
@@ -608,22 +607,14 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
                     FROM oc_zone
                     WHERE oc_zone.zone_id = ". $row['shipping_zone_id'];
 
-                $sub_sql_query_8 = "SELECT 
-                    count(*) as 'total_orders'
-                    FROM oc_order
-                    WHERE oc_order.customer_id = ". $row['customer_id'] . " AND order_status_id IN (5);";
-
                 $q_sub_1 = null;
                 $q_sub_2 = null;
                 $q_sub_5 = null;
-                $q_sub_8 = null;
                 try {
                     $q_sub_1 = $conn->query($sub_sql_query_1);
                     $q_sub_1->setFetchMode(PDO::FETCH_ASSOC);
                     $q_sub_2 = $conn->query($sub_sql_query_2);
                     $q_sub_2->setFetchMode(PDO::FETCH_ASSOC);
-                    $q_sub_8 = $conn->query($sub_sql_query_8);
-                    $q_sub_8->setFetchMode(PDO::FETCH_ASSOC);
                 } catch(PDOException $e) {
                     echo "Error: " . $e->getMessage();
                 }
@@ -631,7 +622,6 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
                 $q_vals_sub_1 = $q_sub_1->fetchAll();
                 $q_vals_sub_2 = $q_sub_2->fetchAll();
                 $q_vals_sub_5 = $q_sub_2->fetchAll();
-                $q_vals_sub_8 = $q_sub_8->fetchAll();
 
                 $payment_state_name = "";
                 if(count($q_vals_sub_2) != 0) {
@@ -644,13 +634,6 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
                 if(count($q_vals_sub_5) != 0) {
                     foreach($q_vals_sub_5 as $sub_row_5) {
                         $shipping_state_name = $sub_row_5['shipping_state_name'];
-                    }
-                }
-
-                $total_orders = "";
-                if(count($q_vals_sub_8) != 0) {
-                    foreach($q_vals_sub_8 as $sub_row_8) {
-                        $total_orders = $sub_row_8['total_orders'];
                     }
                 }
 
@@ -765,7 +748,6 @@ function getMissingOrders($conn, $objPHPExcel, $cell_header_style) {
 
                 $objPHPExcel->getActiveSheet()->setCellValue('I'.$index,$grand_total_weight);
                 $objPHPExcel->getActiveSheet()->setCellValue('H'.$index,$no_packets);
-                $objPHPExcel->getActiveSheet()->setCellValue('X'.$index,$total_orders);
 
                 $index++;
 
